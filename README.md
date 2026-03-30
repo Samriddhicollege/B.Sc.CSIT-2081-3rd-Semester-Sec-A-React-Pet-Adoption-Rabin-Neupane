@@ -9,32 +9,32 @@ A modern, full-featured Pet Adoption Web Application built with React — connec
 
 Clean UI • Fast Performance • Fully Responsive • Secure Authentication
 
-## ScreenShots
+## Screenshots
 
-<p align="center">
-<img src="src/assets/Screenshots/1.png" alt="Registered User Home page " width="100%" />
-<img src="src/assets/Screenshots/2.png" alt="Contact page" width="100%" />
-<img src="src/assets/Screenshots/3.png" alt="Admin Dashboard " width="100%" />
-<img src="src/assets/Screenshots/4.png" alt="Manage Pets by Admin" width="100%" />
-<img src="src/assets/Screenshots/5.png" alt="Add Pet by Admin" width="100%" />
-<img src="src/assets/Screenshots/6.png" alt="Edit Pet by Admin" width="100%" />
-<img src="src/assets/Screenshots/7.png" alt="Browse Pet" width="100%" />
-<img src="src/assets/Screenshots/8.png" alt="User Dashboard " width="100%" />
-<img src="src/assets/Screenshots/9.png" alt="Pet's Stories " width="100%" />
-<img src="src/assets/Screenshots/10.png" alt="Pet Selection Quiz " width="100%" />
-<img src="src/assets/Screenshots/11.png" alt="Pet Adoption " width="100%" />
-<img src="src/assets/Screenshots/12.png" alt="About Us Page" width="100%" />
-</p>
-
-<p align="center">
-
-  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
-  <img src="https://img.shields.io/badge/Vite-Build-purple?logo=vite" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
-</p>
-
-
+**Registered User Home page**  
+![Registered User Home page](./src/assets/Screenshots/1.png)
+**Contact page**  
+![Contact page](./src/assets/Screenshots/2.png)
+**Admin Dashboard**  
+![Admin Dashboard ](./src/assets/Screenshots/3.png)
+**Manage Pets by Admin**  
+![Manage Pets by Admin](./src/assets/Screenshots/4.png)
+**Add Pet by Admin**  
+![Add Pet by Admin](./src/assets/Screenshots/5.png)
+**Edit Pet by Admin**  
+![Edit Pet by Admin](./src/assets/Screenshots/6.png)
+**Browse Pet**  
+![Browse Pet](./src/assets/Screenshots/7.png)
+**User Dashboard**  
+![User Dashboard ](./src/assets/Screenshots/8.png)
+**Pet's Stories**  
+![Pet's Stories](./src/assets/Screenshots/9.png)
+**Pet Selection Quiz**  
+![Pet Selection Quiz ](./src/assets/Screenshots/10.png)
+**Pet Adoption**  
+![Pet Adoption ](./src/assets/Screenshots/11.png)
+**About Us Page**  
+![About Us Page](./src/assets/Screenshots/12.png)
 
 ---
 
