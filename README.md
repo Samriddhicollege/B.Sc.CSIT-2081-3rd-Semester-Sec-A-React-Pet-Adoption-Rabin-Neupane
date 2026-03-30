@@ -40,7 +40,8 @@ Clean UI • Fast Performance • Fully Responsive • Secure Authentication
 
 ## Features
 
-  ## Core Features
+### Core Features
+```
 Pet Browsing — Search and filter through available pets with detailed profiles
 Pet Details — View comprehensive information (images, breed, characteristics)
 User Authentication — Secure login/signup system with role-based access
@@ -62,8 +63,10 @@ Form Validation with error handling
 CRUD Operations for pet and application management
 
 The architecture is well-organized with dedicated components, context providers, custom hooks, and pages for different sections (Browse, Dashboard, Admin, Quiz, etc.), making it modular and maintainable.
+```
 
 ### Core Functionality
+```
 
 * Browse pets with search and filters
 * View detailed pet profiles (images, breed, information)
@@ -71,6 +74,7 @@ The architecture is well-organized with dedicated components, context providers,
 * Favorites system
 * Adoption application system
 * Admin dashboard
+```
 
 ---
 
@@ -86,7 +90,7 @@ The architecture is well-organized with dedicated components, context providers,
 ---
 
 ### Technical Highlights
-
+```
 * React Hooks (`useState`, `useEffect`, `useContext`)
 * React Router (SPA navigation)
 * Context API (global state management)
@@ -94,6 +98,7 @@ The architecture is well-organized with dedicated components, context providers,
 * CRUD operations
 * Form validation
 * Error handling with loading states
+```
 
 ---
 
@@ -129,6 +134,7 @@ http://localhost:5174
 
 ---
 
+```
 ## Project Structure
 Pet_Adoption/
 ├── public/
@@ -179,22 +185,26 @@ Pet_Adoption/
 ├── package.json                         # Dependencies & scripts
 ├── index.html                           # HTML template
 └── README.md                         # Documentation
+```
 
 ---
 ## Architecture Overview
+```
 Context Providers → Centralized state (5 contexts)
 Custom Hooks → Encapsulated business logic (5 hooks)
 Components → Reusable UI building blocks (5 components)
 Pages → Route-level components (14 pages)
 Data Layer → Static pet data
+```
 
 ## Key Separation:
-
+```
 /context/ — State management
 /hooks/ — Logic abstraction
 /components/ — Presentational UI
 /pages/ — Full page views
 /styles/ — Styling (mostly inline CSS modules)
+```
 
 ## Usage Guide
 
