@@ -82,7 +82,7 @@ The architecture is well-organized with dedicated components, context providers,
 
 * Real-time API integration (The Dog API)
 * LocalStorage persistence
-* Mobile-friendly responsive UI
+* Desktop-friendly responsive UI Only
 * Notification system
 * Pet matching quiz
 * Success stories section
@@ -126,10 +126,10 @@ npm install
 npm run dev
 ```
 
-Open in browser:
-
+## Live Demo:
+**Live URL**
 ```
-http://localhost:5174
+[http://localhost:5174](https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/)
 ```
 
 ---
