@@ -1,220 +1,243 @@
 # Pet Adoption Platform
----
-
-A modern, full-featured Pet Adoption Web Application built with React — connecting loving families with pets in need.
 
 ---
 
-## Overview
+## Project Title
 
-Clean UI • Fast Performance • Fully Responsive • Secure Authentication
----
-## 🚀 Live Demo
-👉 [https://your-project.vercel.app](https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/)
+**Pet Adoption Platform – React Web Application**
 
 ---
 
-## Features
+## Student Information
 
-### Core Features
-```
-Pet Browsing — Search and filter through available pets with detailed profiles
-Pet Details — View comprehensive information (images, breed, characteristics)
-User Authentication — Secure login/signup system with role-based access
-Favorites System — Save and manage favorite pets
-Adoption Applications — Submit adoption requests for pets
-Admin Dashboard — Manage pets (add/edit/delete) and review applications
+- **Name:** Rabin Neupane  
+- **Course / Program:** BSc CSIT  
+- **Semester / Year:** 3rd Semester / second 
+
+---
+
+## Instructor Information
+
+- **Instructor Name:** Mr. Dipak Shrestha  
+- **Course Title:** React Development / Web Development  
+- **College Name:** Samriddhi College  
+
+---
+
+## Project Overview
+
+This project is a modern web-based **Pet Adoption Platform** developed using **React.js**. The application connects potential pet adopters with pets in need of a home through a clean, responsive, and user-friendly interface.
+
+Users can browse pets, view detailed profiles, save favorites, and submit adoption requests. The system also includes an admin panel for managing pets and reviewing applications.
+
+The main goal of this project is to simplify and digitize the pet adoption process while improving user experience and accessibility.
+
+---
+
+## Objectives
+
+- Develop a fully responsive React-based web application  
+- Implement real-world features such as browsing, filtering, and adoption requests  
+- Apply component-based architecture and state management  
+- Enhance UI/UX for better user interaction  
+- Integrate external APIs for dynamic data  
+
+---
+
+## Technologies Used
+
+### Frontend
+- React 18  
+- HTML, CSS, JavaScript  
+- Vite  
+
+### State Management
+- Context API  
+
+### Routing
+- React Router DOM  
+
+### API
+- The Dog API  
+
+### Storage
+- LocalStorage  
+
+### Tools
+- Git & GitHub  
+- VS Code  
+
+---
+
+## Key Features
+
+- Pet browsing with search and filter functionality  
+- Detailed pet profiles (images, breed, characteristics)  
+- User authentication (login/signup system)  
+- Favorites system for saving pets  
+- Adoption application system  
+- Admin dashboard for managing pets and applications  
+- Responsive user interface  
+- Notification system for user feedback  
+
+---
+
 ## Advanced Features
-Real-time API Integration — Pulls pet data from The Dog API
-Pet Matching Quiz — Personalized quiz to match users with suitable pets
-Success Stories — Showcase successful adoptions
-Notification System — Real-time user feedback and notifications
-LocalStorage Persistence — Data retained across sessions
-Responsive Design — Full mobile and desktop support
-## Technical Implementation
-React 18 with custom hooks for reusable logic
-Context API for global state management across 5 contexts (Auth, Pets, Favorites, Applications, Notifications)
-React Router for single-page application navigation
-Form Validation with error handling
-CRUD Operations for pet and application management
 
-The architecture is well-organized with dedicated components, context providers, custom hooks, and pages for different sections (Browse, Dashboard, Admin, Quiz, etc.), making it modular and maintainable.
-```
-
-### Core Functionality
-```
-
-* Browse pets with search and filters
-* View detailed pet profiles (images, breed, information)
-* User authentication (Login / Signup)
-* Favorites system
-* Adoption application system
-* Admin dashboard
-```
+- Real-time API integration using The Dog API  
+- Pet matching quiz for personalized suggestions  
+- Success stories section  
+- LocalStorage data persistence  
+- Form validation with error handling  
 
 ---
 
-### Advanced Features
+## Modules / Screens
 
-* Real-time API integration (The Dog API)
-* LocalStorage persistence
-* Desktop-friendly responsive UI Only
-* Notification system
-* Pet matching quiz
-* Success stories section
-
----
-
-### Technical Highlights
-```
-* React Hooks (`useState`, `useEffect`, `useContext`)
-* React Router (SPA navigation)
-* Context API (global state management)
-* Custom Hooks (reusable logic)
-* CRUD operations
-* Form validation
-* Error handling with loading states
-```
+- Home Page  
+- Browse Pets Page  
+- Pet Details Page  
+- Favorites Page  
+- User Dashboard  
+- Admin Dashboard  
+- Admin Pets Management  
+- Admin Applications  
+- Quiz Page  
+- Login / Signup Pages  
+- Success Stories Page  
 
 ---
 
-## Tech Stack
-
-| Category        | Technology       |
-| --------------- | ---------------- |
-| Frontend        | React 18         |
-| Routing         | React Router DOM |
-| Styling         | CSS3             |
-| State Mgmt      | Context API      |
-| Build Tool      | Vite             |
-| Storage         | LocalStorage     |
-| API             | The Dog API      |
-| Package Manager | npm              |
-
----
-
-## Installation
+## Installation & Setup
 
 ```bash
+# Clone the repository
 git clone https://github.com/Samriddhicollege/B.Sc.CSIT-2081-3rd-Semester-Sec-A-React-Pet-Adoption-Rabin-Neupane.git
+
+# Navigate to project folder
 cd pet-adoption-platform
+
+# Install dependencies
 npm install
+
+# Run the development server
 npm run dev
 ```
+
 ---
 
-```
 ## Project Structure
+
+```
 Pet_Adoption/
 ├── public/
 ├── src/
-│   ├── assets/                          # Images, icons, media
-│   ├── components/                      # Reusable UI components
-│   │   ├── AdoptionModal.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── NotificationContainer.jsx
-│   │   └── PetCard.jsx
-│   ├── context/                         # Global state management
-│   │   ├── ApplicationsContext.jsx      # Adoption applications state
-│   │   ├── AuthContext.jsx              # User authentication state
-│   │   ├── FavoritesContext.jsx         # Favorites management state
-│   │   ├── NotificationContext.jsx      # Notification system state
-│   │   └── PetsContext.jsx              # Pets data state
+│   ├── assets/
+│   ├── components/
+│   ├── context/
 │   ├── data/
-│   │   └── petsData.js                  # Static/initial pet data
-│   ├── hooks/                           # Custom React hooks
-│   │   ├── useApplications.js           # Adoption applications logic
-│   │   ├── useAuth.js                   # Authentication logic
-│   │   ├── useFavorites.js              # Favorites logic
-│   │   ├── useNotification.js           # Notification logic
-│   │   └── usePets.js                   # Pets data logic
-│   ├── pages/                           # Page components (routes)
-│   │   ├── About.jsx
-│   │   ├── AdminApplications.jsx        # Admin: view applications
-│   │   ├── AdminDashboard.jsx           # Admin: main dashboard
-│   │   ├── AdminPets.jsx                # Admin: manage pets
-│   │   ├── BrowsePets.jsx               # User: browse all pets
-│   │   ├── Contact.jsx
-│   │   ├── Dashboard.jsx                # User: personal dashboard
-│   │   ├── Favorites.jsx                # User: saved favorites
-│   │   ├── Home.jsx                     # Landing page
-│   │   ├── Login.jsx                    # User login
-│   │   ├── PetDetails.jsx               # Single pet details
-│   │   ├── Quiz.jsx                     # Pet matching quiz
-│   │   ├── Signup.jsx                   # User registration
-│   │   └── SuccessStories.jsx           # Adoption success stories
+│   ├── hooks/
+│   ├── pages/
 │   ├── styles/
-│   │   └── Notification.css
-│   ├── App.jsx                          # Main app component
-│   ├── main.jsx                         # Entry point
-│   └── index.css                        # Global styles
-├── eslint.config.js                     # ESLint configuration
-├── vite.config.js                       # Vite build configuration
-├── package.json                         # Dependencies & scripts
-├── index.html                           # HTML template
-└── README.md                         # Documentation
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
 ```
 
 ---
-## Architecture Overview
-```
-Context Providers → Centralized state (5 contexts)
-Custom Hooks → Encapsulated business logic (5 hooks)
-Components → Reusable UI building blocks (5 components)
-Pages → Route-level components (14 pages)
-Data Layer → Static pet data
-```
 
-## Key Separation:
-```
-/context/ — State management
-/hooks/ — Logic abstraction
-/components/ — Presentational UI
-/pages/ — Full page views
-/styles/ — Styling (mostly inline CSS modules)
-```
+## Architecture Overview
+
+- **Context Providers:** Manage global state (Auth, Pets, Favorites, Applications, Notifications)  
+- **Custom Hooks:** Encapsulate reusable logic  
+- **Components:** Reusable UI elements  
+- **Pages:** Route-based views  
+- **Data Layer:** Static and API-based data  
+
+---
+
+## GitHub & Live Demo
+
+- **GitHub Repository:**  
+  https://github.com/Samriddhicollege/B.Sc.CSIT-2081-3rd-Semester-Sec-A-React-Pet-Adoption-Rabin-Neupane.git  
+
+- **Live Demo:**  
+  https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/  
+
+---
 
 ## Usage Guide
 
 ### For Users
 
-1. Browse pets from the homepage
-2. Use search and filters
-3. View pet details
-4. Save favorites
-5. Apply for adoption
-
----
+- Browse available pets  
+- Search and filter pets  
+- View pet details  
+- Save pets to favorites  
+- Apply for adoption  
 
 ### For Administrators
 
-```
-Email: admin@petadoption.com  
-Password: admin123
-```
+**Email:** admin@petadoption.com  
+**Password:** admin123  
 
-* Manage pets (Add / Edit / Delete)
-* Review adoption applications
+- Add, edit, and delete pets  
+- Review adoption applications  
 
 ---
 
 ## API Integration
 
-API used: The Dog API
+- **API Used:** The Dog API  
+- **Endpoint:**  
+  https://api.thedogapi.com/v1/images/search?limit=6&has_breeds=true  
 
-Endpoint:
+---
 
-```
-https://api.thedogapi.com/v1/images/search?limit=6&has_breeds=true
-```
+## Testing
+
+- Tested responsiveness on mobile, tablet, and desktop devices  
+- Verified API integration and data rendering  
+- Tested edge cases (empty states, invalid inputs, login errors)  
+
+---
+
+## Challenges Faced
+
+- Managing global state using Context API  
+- Handling API data and asynchronous operations  
+- Structuring scalable and maintainable components  
+- Implementing role-based UI (Admin vs User)  
+
+---
+
+## Future Enhancements
+
+- Integration of payment systems (eSewa / Khalti)  
+- Backend integration for persistent database storage  
+- Real-time notifications  
+- Improved UI/UX with animations  
+- Advanced filtering and recommendation system  
+
+---
+
+## Acknowledgement
+
+I would like to express my sincere gratitude to **Mr. Dipak Shrestha** for his guidance and support throughout this project.
+
+---
+
+## Declaration
+
+I hereby declare that this project is my original work and has been completed as part of my academic submission.
 
 ---
 
 ## License
 
-MIT License
-
-## Final Note
+This project is licensed under the MIT License.
 
 Built for pets and the people who care for them.
