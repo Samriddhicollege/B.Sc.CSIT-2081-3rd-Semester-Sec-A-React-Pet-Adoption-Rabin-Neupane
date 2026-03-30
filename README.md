@@ -12,33 +12,6 @@ Clean UI • Fast Performance • Fully Responsive • Secure Authentication
 ## 🚀 Live Demo
 👉 [https://your-project.vercel.app](https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/)
 
-## Screenshots
-
-**Registered User Home page**  
-![Registered User Home page](./src/assets/Screenshots/1.png)
-**Contact page**  
-![Contact page](./src/assets/Screenshots/2.png)
-**Admin Dashboard**  
-![Admin Dashboard ](./src/assets/Screenshots/3.png)
-**Manage Pets by Admin**  
-![Manage Pets by Admin](./src/assets/Screenshots/4.png)
-**Add Pet by Admin**  
-![Add Pet by Admin](./src/assets/Screenshots/5.png)
-**Edit Pet by Admin**  
-![Edit Pet by Admin](./src/assets/Screenshots/6.png)
-**Browse Pet**  
-![Browse Pet](./src/assets/Screenshots/7.png)
-**User Dashboard**  
-![User Dashboard ](./src/assets/Screenshots/8.png)
-**Pet's Stories**  
-![Pet's Stories](./src/assets/Screenshots/9.png)
-**Pet Selection Quiz**  
-![Pet Selection Quiz ](./src/assets/Screenshots/10.png)
-**Pet Adoption**  
-![Pet Adoption ](./src/assets/Screenshots/11.png)
-**About Us Page**  
-![About Us Page](./src/assets/Screenshots/12.png)
-
 ---
 
 ## Features
