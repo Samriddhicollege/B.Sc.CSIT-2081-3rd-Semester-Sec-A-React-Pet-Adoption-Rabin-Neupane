@@ -1,19 +1,174 @@
-# React + Vite
+# Pet Adoption Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="src/assets/banner.png" alt="Pet Adoption Banner" width="100%" />
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Vite-Build-purple?logo=vite" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# B.Sc.CSIT-2081-3rd-Semester-Sec-A-React-Pet-Adoption-Rabin-Neupane
 A modern, full-featured Pet Adoption Web Application built with React — connecting loving families with pets in need.
+
+---
+
+## Overview
+
+Clean UI • Fast Performance • Fully Responsive • Secure Authentication
+
+---
+
+## Features
+
+### Core Functionality
+
+* Browse pets with search and filters
+* View detailed pet profiles (images, breed, information)
+* User authentication (Login / Signup)
+* Favorites system
+* Adoption application system
+* Admin dashboard
+
+---
+
+### Advanced Features
+
+* Real-time API integration (The Dog API)
+* LocalStorage persistence
+* Mobile-friendly responsive UI
+* Notification system
+* Pet matching quiz
+* Success stories section
+
+---
+
+### Technical Highlights
+
+* React Hooks (`useState`, `useEffect`, `useContext`)
+* React Router (SPA navigation)
+* Context API (global state management)
+* Custom Hooks (reusable logic)
+* CRUD operations
+* Form validation
+* Error handling with loading states
+
+---
+
+## Tech Stack
+
+| Category        | Technology       |
+| --------------- | ---------------- |
+| Frontend        | React 18         |
+| Routing         | React Router DOM |
+| Styling         | CSS3             |
+| State Mgmt      | Context API      |
+| Build Tool      | Vite             |
+| Storage         | LocalStorage     |
+| API             | The Dog API      |
+| Package Manager | npm              |
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/pet-adoption-platform.git
+cd pet-adoption-platform
+npm install
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5174
+```
+
+---
+
+## Project Structure
+
+```
+src/
+├── assets/
+├── components/
+├── context/
+├── data/
+├── hooks/
+├── pages/
+├── styles/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Usage Guide
+
+### For Users
+
+1. Browse pets from the homepage
+2. Use search and filters
+3. View pet details
+4. Save favorites
+5. Apply for adoption
+
+---
+
+### For Administrators
+
+```
+Email: admin@petadoption.com  
+Password: admin123
+```
+
+* Manage pets (Add / Edit / Delete)
+* Review adoption applications
+
+---
+
+## API Integration
+
+API used: The Dog API
+
+Endpoint:
+
+```
+https://api.thedogapi.com/v1/images/search?limit=6&has_breeds=true
+```
+
+---
+
+## Contributing
+
+```bash
+git checkout -b feature/your-feature
+git commit -m "Add new feature"
+git push origin feature/your-feature
+```
+
+Then open a Pull Request.
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Support
+
+Email: [info@petadoption.com](mailto:info@petadoption.com)
+
+---
+
+## Final Note
+
+Built for pets and the people who care for them.
