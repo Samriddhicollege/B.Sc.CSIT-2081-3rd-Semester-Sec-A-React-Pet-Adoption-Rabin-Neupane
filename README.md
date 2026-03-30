@@ -8,6 +8,9 @@ A modern, full-featured Pet Adoption Web Application built with React — connec
 ## Overview
 
 Clean UI • Fast Performance • Fully Responsive • Secure Authentication
+---
+## 🚀 Live Demo
+👉 [https://your-project.vercel.app](https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/)
 
 ## Screenshots
 
@@ -125,13 +128,6 @@ cd pet-adoption-platform
 npm install
 npm run dev
 ```
-
-## Live Demo:
-**Live URL**
-```
-[http://localhost:5174](https://b-sc-csit-2081-3rd-semester-sec-a-r.vercel.app/)
-```
-
 ---
 
 ```
