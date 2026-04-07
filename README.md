@@ -11,7 +11,7 @@
 ## Student Information
 
 - **Name:** Rabin Neupane
-- **Roll Number:**
+- **Roll Number:** 17(A)
 - **Course / Program:** BSc CSIT  
 - **Semester / Year:** 3rd Semester / 2026
 
